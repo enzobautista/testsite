@@ -1,33 +1,4 @@
-<!DOCTYPE HTML>
-<html>
-<title>Stocks and Sentiments</title>
-<head>
-<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="style.css">
-  <script type="text/javascript">
-  window.onload = function () {
-    var chart = new CanvasJS.Chart("chartContainer",
-    {
-      title:{
-       text: "Comparison of Stock Market Performance on Dow Jones Index Vs Sentiment"
-      },
-      toolTip:{
-   content:"date:{name}, close: {z}, positive: {y}" ,
- },axisX: {
-      title:"Day Number",
-      maximum: 150
-    },
-    axisY: {
-      title:"Positive Words"
-      
-    },
-      data: [
-      {
-        type: "bubble",
-     dataPoints: [
-    // { x: 64.8, y: 2.66, z:12074.4 , name: "India"},
-   //  { x: 73.1, y: 1.61, z:13313.8, name: "China"},
-     
+    
   {
     x: 1,
     y: 3,
@@ -3982,29 +3953,3 @@
     z: 17949.36914,
     name: "2016-07-01"
   }
-
-     ]
-   }
-   ]
- });
-
-chart.render();
-}
-</script>
-<script type="text/javascript" src="canvasjs.min.js"></script></head>
-
-<body>
-<section id="sec1">
-<div class="overlay">
-  <center>
-      <span class="wtitle">An Analysis of the Efficient Market Hypothesis</span>
-  </center>
-  <center>
-  <img class="blink_me" id="dbtn"src="arrowdown2.png">
-  </center>
-</div>
-</section>
-<div id="chartContainer" style="height: 200px; width: 100%;">
-  </div>
-</body>
-</html>

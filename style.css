@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x:hidden;
+}
+#sec1{
+	background-color: #2196F3;
+	height:100vh;
+	
+	background-image: url('bg.jpg')
+}
+.wtitle{
+	font-family: 'Bungee', cursive;
+	font-size: 80px;
+}
+#dbtn{
+	height:15vh;
+	margin-top: 10vh;
+}
+.overlay{
+	height: 100%;
+	width:100%;
+	padding-top: 10vh;
+	background-color:rgba(33,150,243,0.7);
+	/*--background-color: #2196F3;--*/
+}
+.blink_me {
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.5; }
+}
