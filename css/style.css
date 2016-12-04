@@ -40,6 +40,11 @@ body{
 }
 #sec3{
   background-color: #2196F3;
+  height:105vh;
+  padding-top: 8vh;
+}
+#sec4{
+  background-color: #ffffff;
   height:140vh;
   padding-top: 8vh;
 }
@@ -95,14 +100,15 @@ body{
   margin-top: 12vh;
 }
 .mmdiv{
-  padding: 4vh;
+  padding-left: 8vh;
+  padding-right: 8vh;
 }
 .mdivs{
   height:38vh;
 }
 .m1img{
   height:28vh;
-  margin-top: 12vh;
+  margin-top: 9vh;
 }
 /*.pmgd{
   height:60vh;
