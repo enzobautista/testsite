@@ -52,6 +52,11 @@ body{
 	font-size: 50px;
 	color:#0288D1;
 }
+.subtitle2{
+  font-family: 'Bungee', cursive;
+  font-size: 50px;
+
+}
 #dbtn{
 	height:15vh;
 	margin-top: 10vh;
@@ -87,6 +92,16 @@ body{
 }
 .p2img{
   height:38vh;
+  margin-top: 12vh;
+}
+.mmdiv{
+  padding: 4vh;
+}
+.mdivs{
+  height:38vh;
+}
+.m1img{
+  height:28vh;
   margin-top: 12vh;
 }
 /*.pmgd{
