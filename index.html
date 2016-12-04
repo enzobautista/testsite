@@ -11,7 +11,7 @@
     var chart = new CanvasJS.Chart("chartContainer",
     {
       title:{
-       text: "Comparison of Stock Market Performance on Dow Jones Index Vs Sentiment"
+       text: "September 2014"
       },
       toolTip:{
    content:"date:{name}, close: {z}, positive: {y}" ,
@@ -30,17 +30,125 @@
     // { x: 64.8, y: 2.66, z:12074.4 , name: "India"},
    //  { x: 73.1, y: 1.61, z:13313.8, name: "China"},
      
-  {
-    x: 1,
+ {
+    x: 11,
     y: 3,
     z: 17049,
     name: "2014-09-11"
   },
-    {
-    x: 3,
+  {
+    x: 12,
+    y: 8,
+    z: 16987.50977,
+    name: "2014-09-12"
+  },
+  {
+    x: 13,
+    y: 3,
+    z: 16987.50977,
+    name: "2014-09-13"
+  },
+  {
+    x: 14,
+    y: 9,
+    z: 16987.50977,
+    name: "2014-09-14"
+  },
+  {
+    x: 15,
+    y: 6,
+    z: 17031.14063,
+    name: "2014-09-15"
+  },
+  {
+    x: 16,
+    y: 8,
+    z: 17131.9707,
+    name: "2014-09-16"
+  },
+  {
+    x: 17,
+    y: 11,
+    z: 17156.84961,
+    name: "2014-09-17"
+  },
+  {
+    x: 18,
+    y: 2,
+    z: 17265.99023,
+    name: "2014-09-18"
+  },
+  {
+    x: 19,
+    y: 6,
+    z: 17279.74023,
+    name: "2014-09-19"
+  },
+  {
+    x: 20,
+    y: 6,
+    z: 17279.74023,
+    name: "2014-09-20"
+  },
+  {
+    x: 21,
+    y: 6,
+    z: 17279.74023,
+    name: "2014-09-21"
+  },
+  {
+    x: 22,
+    y: 7,
+    z: 17172.67969,
+    name: "2014-09-22"
+  },
+  {
+    x: 23,
     y: 5,
-    z: 17049,
-    name: "2014-09-11"
+    z: 17055.86914,
+    name: "2014-09-23"
+  },
+  {
+    x: 24,
+    y: 4,
+    z: 17210.06055,
+    name: "2014-09-24"
+  },
+  {
+    x: 25,
+    y: 8,
+    z: 16945.80078,
+    name: "2014-09-25"
+  },
+  {
+    x: 26,
+    y: 7,
+    z: 17113.15039,
+    name: "2014-09-26"
+  },
+  {
+    x: 27,
+    y: 7,
+    z: 17113.15039,
+    name: "2014-09-27"
+  },
+  {
+    x: 28,
+    y: 5,
+    z: 17113.15039,
+    name: "2014-09-28"
+  },
+  {
+    x: 29,
+    y: 5,
+    z: 17071.2207,
+    name: "2014-09-29"
+  },
+  {
+    x: 30,
+    y: 8,
+    z: 17042.90039,
+    name: "2014-09-30"
   }
 
      ]
@@ -53,7 +161,7 @@ chart.render();
 $("#sept2014").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "September 2014";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -185,7 +293,7 @@ $("#sept2014").click(function () {
 $("#oct2014").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "October 2014";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -384,7 +492,7 @@ $("#oct2014").click(function () {
 $("#nov2014").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "November 2014";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -577,7 +685,7 @@ $("#nov2014").click(function () {
 $("#dec2014").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "December 2014";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -776,7 +884,7 @@ $("#dec2014").click(function () {
 $("#jan2015").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "January 2015";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -975,7 +1083,7 @@ $("#jan2015").click(function () {
 $("#feb2015").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "February 2015";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -1156,7 +1264,7 @@ $("#feb2015").click(function () {
 $("#mar2015").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "March 2015";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -2140,7 +2248,7 @@ $("#jul2015").click(function () {
 $("#aug2015").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "August 2015";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -2339,7 +2447,7 @@ $("#aug2015").click(function () {
 $("#sept2015").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "September 2015";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -2532,7 +2640,7 @@ $("#sept2015").click(function () {
 $("#oct2015").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "October 2015";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -2731,7 +2839,7 @@ $("#oct2015").click(function () {
 $("#nov2015").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "November 2015";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -2924,7 +3032,7 @@ $("#nov2015").click(function () {
 $("#dec2015").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "December 2015";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -3123,7 +3231,7 @@ $("#dec2015").click(function () {
 $("#jan2016").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "January 2016";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -3322,7 +3430,7 @@ $("#jan2016").click(function () {
 $("#feb2016").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "February 2016";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -3509,7 +3617,7 @@ $("#feb2016").click(function () {
 $("#mar2016").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "March 2016";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -3702,7 +3810,7 @@ $("#mar2016").click(function () {
 $("#apr2016").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "April 2016";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -3895,7 +4003,7 @@ $("#apr2016").click(function () {
 $("#may2016").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "May 2016";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -4094,7 +4202,7 @@ $("#may2016").click(function () {
 $("#jun2016").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "June 2016";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -4287,7 +4395,7 @@ $("#jun2016").click(function () {
 $("#jul2016").click(function () {
 
   var length = chart.options.data[0].dataPoints.length;
-  chart.options.title.text = "New DataPoint Added at the end";
+  chart.options.title.text = "July 2016";
   chart.options.data.pop();
 
   chart.options.data.push( {type: "bubble",
@@ -4393,39 +4501,49 @@ $("#jul2016").click(function () {
 <center>
       <span class="subtitle">Findings</span>
   </center>
-  <div class="row">
+  <div class="ctrl row">
     <div class="col-md-3">
-    2014<br>
-      <button id="sept2014">September</button>
-      <button id="oct2014">October</button>
-      <button id="nov2014">November</button>
-      <button id="dec2014">December</button></div>
-    <div class="col-md-3">
-      <button id="jan2015">January</button>
-      <button id="feb2015">February</button>
-      <button id="mar2015">March</button>
-      <button id="apr2015">April</button>
-      <button id="may2015">May</button>
-      <button id="jun2015">June</button>
-      <button id="jul2015">July</button>
-      <button id="aug2015">August</button>
-      <button id="sept2015">September</button>
-      <button id="oct2015">October</button>
-      <button id="nov2015">November</button>
-      <button id="dec2015">December</button>
+    <center>
+    <span class="year">2014</span><br>
+      <button id="sept2014" class="btn">September</button>
+      <button id="oct2014" class="btn">October</button>
+      <button id="nov2014" class="btn">November</button>
+      <button id="dec2014" class="btn">December</button>
+      </center>
+    </div>
+    <div class="col-md-6">
+    <center>
+    <span class="year">2015</span><br>
+      <button id="jan2015" class="btn">January</button>
+      <button id="feb2015" class="btn">February</button>
+      <button id="mar2015" class="btn">March</button>
+      <button id="apr2015" class="btn">April</button>
+      <button id="may2015" class="btn">May</button>
+      <button id="jun2015" class="btn">June</button>
+      <button id="jul2015" class="btn">July</button>
+      <button id="aug2015" class="btn">August</button>
+      <button id="sept2015" class="btn">September</button>
+      <button id="oct2015" class="btn">October</button>
+      <button id="nov2015" class="btn">November</button>
+      <button id="dec2015" class="btn">December</button>
+      </center>
 
     </div>
     <div class="col-md-3">
-      <button id="jan2016">January</button>
-      <button id="feb2016">February</button>
-      <button id="mar2016">March</button>
-      <button id="apr2016">April</button>
-      <button id="may2016">May</button>
-      <button id="jun2016">June</button>
-      <button id="jul2016">July</button>
+    <center>
+    <span class="year">2016</span><br>
+      <button id="jan2016" class="btn">January</button>
+      <button id="feb2016" class="btn">February</button>
+      <button id="mar2016" class="btn">March</button>
+      <button id="apr2016" class="btn">April</button>
+      <button id="may2016" class="btn">May</button>
+      <button id="jun2016" class="btn">June</button>
+      <button id="jul2016" class="btn">July</button>
+      </center>
     </div>
   </div>
-  <center>
+  <center style="margin-top:8vh;">
+   <span class="text">Comparison of Stock Market Performance on Dow Jones Index Vs Sentiment</span>
   <div id="chartContainer" style="height: 200px; width: 80%;">
   </div>
   </center>

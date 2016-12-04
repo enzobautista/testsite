@@ -110,6 +110,30 @@ body{
   height:28vh;
   margin-top: 9vh;
 }
+.ctrl{
+  margin-top: 4.5vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.btn{
+  margin-top: 3px;
+    transition: background-color 0.5s ease;
+}
+.btn:hover{
+
+  background-color: #2196F3;
+}
+.btn:focus{
+  background-color: #2196F3;
+  outline: 0;
+}
+
+.year{
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color:#212121;
+}
 /*.pmgd{
   height:60vh;
   background-size: cover;
